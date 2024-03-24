@@ -1,0 +1,17 @@
+Guide on how to use the algorithm:
+
+All algorithmic trading is done in Historical Vol main code
+You may need to import "ccxt" and other imports, but this may naturally work on VS code, I'm not sure.
+
+DATA SOURCE:
+
+"historical data attempt" is the file i ran to originally download my data set from deribit.
+it was then editted by "formatting dataset" which turned it into the datasets found in the folder.
+
+HOW TO USE ALGORITHM:
+
+1. Simply running the algorithm will start it to run through all data sets and give monthly profit/losses before showing diagrams at the end
+2. To turn delta neutral trading on or off, change line 935 to True or False
+3. To choose between historical volatility trading and implied volatility trading, use line 934, choosing "Implied" or "Historical"
+4. To change the month of which the graph is shown at the end of running, change line 963 and 964 to your preference.
+5. If running all 5 years of data is taking too long, edit the list in line 676 to reduce number of years
