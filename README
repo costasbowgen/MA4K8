@@ -2,6 +2,7 @@ Guide on how to use the algorithm:
 
 All algorithmic trading is done in Historical Vol main code
 You may need to import "ccxt" and other imports, but this may naturally work on VS code, I'm not sure.
+I believe it will work best by cloning the repository on Github desktop and pulling it, opening onto VS code and running on there.
 
 DATA SOURCE:
 
